@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vino: #7B1230;
+  --color-rojo: #C62F3E;
+  --color-rosa: #F7C5D3;
+  --color-rosa-claro: #FCE4EA;
+  --color-crema: #FFF8F0;
+  --color-lila: #C7C6FA;
+  --color-durazno: #F9A87B;
+
+  --font-titulo: "DM Serif Display", serif;
+  --font-texto: "DM Sans", sans-serif;
+  --font-logo: "Fredoka", sans-serif;
+  --font-mano: "Caveat", cursive;
+}
+
+
+body {
+  background-color: var(--color-crema);
+  color: var(--color-vino);
+  font-family: var(--font-texto);
+}
+
+.borde-ondulado {
+  height: 14px;
+  background: radial-gradient(circle at 10px 0, var(--color-rosa) 10px, transparent 10.5px) 0 0 / 20px 14px repeat-x;
+}
+
+.fondo-cuadricula {
+  background-color: var(--color-crema);
+  background-image: linear-gradient(#F3D3DC 1px, transparent 1px), linear-gradient(90deg, #F3D3DC 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.borde-puntos {
+  height: 20px;
+  background: radial-gradient(circle at 13px 20px, var(--color-rojo) 10px, transparent 10.5px) 0 0 / 26px 20px repeat-x;
+}
