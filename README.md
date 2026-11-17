@@ -8,7 +8,7 @@ Hecho por: Hanna Gabriela Castaño Beltrán
 
 ## Ver la página
 
-[LINK DE VERCEL]
+https://tobyas-huellitas.vercel.app/
 
 ## APIs que usa
 
@@ -27,7 +27,7 @@ Hecho por: Hanna Gabriela Castaño Beltrán
 
 1. Clona el repositorio:
    ```bash
-   git clone [LINK DEL REPOSITORIO]
+   git clone https://github.com/gabycastb-prog/tobyas-huellitas.git
    ```
 2. Entra a la carpeta:
    ```bash
